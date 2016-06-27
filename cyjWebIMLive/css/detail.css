@@ -1,0 +1,520 @@
+.all_wrap {
+    background: #fff;
+    padding-bottom: 1.3888888888888888rem;
+}
+
+.banner {
+    height: 4.444444444444445rem;
+    width: 100%;
+    background: #f1ebe2;
+}
+
+.banner .pic-word-text .name {
+    padding-top: 0.2777777777777778rem;
+}
+
+.person_info {
+    padding: 0.3333333333333333rem;
+}
+
+.b_title {
+    padding: 0.3333333333333333rem;
+    font-size: 0.5555555555555556rem;
+    color: #795d40;
+    text-align: center;
+}
+
+.com_title {
+    color: #44311e;
+    padding-left: 0.3333333333333333rem;
+    border-top: solid 0.015625rem #e7e0d7;
+    font-size: 0.3333333333333333rem;
+    background: #f9f6f2;
+    height: 1rem;
+    line-height: 1rem;
+}
+
+.com_content {
+    padding: 0.3333333333333333rem;
+    line-height: 0.5rem;
+    color: #999999;
+    font-size: 0.3333333333333333rem;
+}
+
+.com_advator {
+    width: 0.9166666666666666rem;
+    height: 0.9166666666666666rem;
+    border-radius: 50%;
+}
+
+.advator {
+    width: 1.3888888888888888rem;
+    height: 1.3888888888888888rem;
+    border-radius: 50%;
+}
+
+.pic-word-info {
+    padding: 0 0.3333333333333333rem;
+}
+
+.pic-word-info li {
+    padding: 0.3125rem 0;
+    border-bottom: solid 0.015625rem #e2e2e2;
+}
+
+.pic-word-text {
+    float: left;
+    width: 70%;
+    text-align: justify;
+    overflow: hidden;
+}
+
+.pic-word-text .name {
+    line-height: 1;
+    margin-bottom: 0.20833333333333334rem;
+    font-size: 0.4444444444444444rem;
+    color: #44311e;
+}
+
+.pic-word-text .n-title {
+    line-height: 1;
+    margin-bottom: 0.15625rem;
+    font-size: 0.2777777777777778rem;
+    color: #999;
+}
+
+.distable-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.act_content {
+    padding: 0.4166666666666667rem;
+    padding-right: 0;
+    font-size: 0.3888888888888889rem;
+    color: #44311e;
+}
+
+.act_content .item {
+    margin-bottom: 0.3rem;
+}
+
+.act_content .item:last-child {
+    margin-bottom: 0;
+}
+
+.act_content .item .active {
+    color: #dc332a;
+    font-size: 0.5555555555555556rem;
+    padding: 0 0.25rem;
+}
+
+.act_content .item .nums {
+    padding-left: 0.4722222222222222rem;
+}
+
+.act_content .item .tag {
+    display: inline-block;
+    color: #b09578;
+    font-size: 0.3333333333333333rem;
+    line-height: 0.4722222222222222rem;
+    height: 0.4722222222222222rem;
+    border-radius: 0.20833333333333334rem;
+    padding-right: 0.20833333333333334rem;
+    margin-right: 0.2222222222222222rem;
+}
+
+.icon_money {
+    width: 0.21875rem;
+    height: 0.3125rem;
+    margin-right: 0.3125rem;
+}
+
+.act_content .item img {
+    vertical-align: -1px;
+}
+
+.icon_time {
+    width: 0.359375rem;
+    height: 0.359375rem;
+    margin-right: 0.3125rem;
+}
+
+.icon_person {
+    width: 0.3125rem;
+    height: 0.3125rem;
+    margin-right: 0.3125rem;
+}
+
+.icon_adress {
+    width: 0.25rem;
+    height: 0.375rem;
+    margin-right: 0.3125rem;
+}
+
+.icon_tag {
+    width: 0.3125rem;
+    height: 0.3125rem;
+    margin-right: 0.3125rem;
+}
+
+/* By Tanglili - 直播和回放页面的样式添加 - 2016-6-7 下午  START */
+
+/* 下载按扭的样式 START */
+
+.download-layer {
+    position: fixed;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    padding: 0.12rem 0.6666666666666666rem;
+    background-color: #fff;
+    border: 1px solid #e3e1e0;
+    border-right: 0;
+    border-left: 0;
+    z-index: 1002;
+}
+
+.download-layer span {
+    display: inline-block;
+    color: #795d40;
+    font-size: 0.34rem;
+    margin-top: 0.34rem;
+    margin-left: 0.12rem;
+    opacity: 0.6;
+}
+
+.ihm-logo {
+    padding-top: 0.05rem;
+    width: 1.0533333333333332rem;
+}
+
+.ihm-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.download-btn {
+    padding-top: 0.23rem;
+}
+
+.download-btn a {
+    padding: 0.1222222222rem 0;
+    display: block;
+    width: 2rem;
+    color: #fff;
+    text-align: center;
+    background-color: #b09578;
+    border-radius: 10px;
+}
+
+.bg {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 1003;
+    -moz-opacity: 0.7;
+    opacity: .70;
+    filter: alpha(opacity=70);
+}
+
+/* 下载按扭的样式 END */
+
+/* 弹出层的样式 START */
+#show {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 6rem;
+    height: 4rem;
+    margin-left: -3rem;
+    margin-top: -2rem;
+    padding: 5px;
+    border: 15px solid rgba(45, 46, 48, 0.75);
+    background-color: #f1ebe2;
+    z-index: 1003;
+    text-align: center;
+    overflow: hidden;
+}
+
+#show h4 {
+    font-size: 0.52rem;
+    margin-top: 0.4rem;
+}
+
+#show p {
+    font-size: 0.3rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.1rem;
+}
+
+#show h4, #show p {
+    color: #795d40;
+}
+
+#show a {
+    display: inline-block;
+    width: 45%;
+    height: 0.8rem;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.8rem;
+}
+
+.cancel {
+    color: #e9e8e8;
+    background-color: #2d2e30;
+    margin-right: 0.1rem;
+}
+
+.confirm {
+    color: #d2bda8;
+    background-color: #795d40;
+}
+
+/* 弹出层的样式 END  */
+
+/*  控制回放页面中播放器的大小 START */
+
+.video-box {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#example_video_1 {
+    width: 100%;
+    height: 100%;
+}
+
+/*  控制回放页面中播放器的大小 END */
+
+/* 直播画面上面的信息 START */
+.video-info {
+    /*width: 100%;*/
+    /*background-color: transparent;*/
+    /*color: #fff;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*z-index: 1000;*/
+}
+
+/* 直播头部 直播人的头像及信息 START */
+.header-info {
+    padding: 0.5rem 0.32rem 0 0.32rem;
+    width: 100%;
+    margin-bottom: 0.6rem;
+}
+
+.live-info {
+    width: 50%;
+    overflow: hidden;
+}
+
+.live-info .company-name{
+    border-right: 1px solid #fff;
+    padding-right: 5px;
+    padding-left: 0;
+}
+.live-portrait {
+    margin-right: 0.24rem;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.live-info h4 {
+    font-size: 0.4266666666666667rem;
+    font-weight: bold;
+    margin-top: -0.05rem;
+}
+.live-info p{
+    height: 0.38rem;
+    line-height: 0.38rem;
+    font-size: 0.3rem;
+}
+.live-info p span {
+    padding-left: 5px;
+}
+
+.limit-width {
+    display: inline-block;
+    width: 1.4rem;
+    max-width: 1.9rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: bottom;
+}
+
+.live-portrait img, .portrait img {
+    border-radius: 50%;
+}
+
+.live-portrait img{
+    width: 0.9333333333333333rem;
+    height: 0.9333333333333333rem;
+}
+
+/* 点赞人头像显示 START */
+.like-portrait {
+    width: 50%;
+    overflow: hidden;
+    margin-top: 0.05rem;
+}
+.portrait {
+    height: 1.5333333333333332rem;
+}
+
+.portrait img {
+    width: 0.8rem;
+    height: 0.8rem;
+    vertical-align: middle;
+}
+
+/* 点赞人头像显示 END */
+
+/* 关闭按扭 START */
+.close-btn a {
+    display: inline-block;
+    width: 0.52rem;
+    height: 0.52rem;
+    background: url("../images/close-icon.png") left center no-repeat;
+    background-size: 100%;
+    margin-left: 0.2rem;
+}
+
+.close-btn {
+    height: 1.5333333333333332rem;
+    padding-top: 0.35rem;
+}
+
+/* 关闭按扭 END */
+
+/* id人数和群成员人数 START */
+.id-count {
+    width: 3.5rem;
+    max-width: 5rem;
+    height: 1.3rem;
+    max-height: 1.5rem;
+    background-color: rgba(0, 0, 0, .2);
+    border-top-right-radius: 0.5533333333333333rem;
+    border-bottom-right-radius: 0.5533333333333333rem;
+    font-size: 0.32rem;
+    padding-left: 0.4rem;
+    padding-top: 0.06rem;
+}
+
+.id-count span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 0.53rem;
+}
+
+.id-count-info {
+    margin-bottom: 0.1rem;
+}
+
+.id-count-info i, .number-people i {
+    display: inline-block;
+    margin-right: 0.2rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    vertical-align: bottom;
+    background: url("../images/img-cion.png") no-repeat;
+    background-size: 100%;
+}
+
+.id-count-info i {
+    background-position: 0 0;
+}
+
+.number-people i {
+    background-position: 0 -0.6rem;
+}
+
+/* id人数和群成员人数 END */
+
+/* 分享按扭 START */
+.tip-btn {
+    position: absolute;
+    bottom: 2rem;
+    right: 0.6666666666666666rem;
+    z-index: 1010;
+    background: transparent;
+}
+
+.tip-btn a {
+    display: block;
+    width: 0.5866666666666667rem;
+    height: 0.5866666666666667rem;
+    background: url("../images/share-icon.png") left center no-repeat;
+    background-size: 100%;
+}
+
+/* 分享按扭 START */
+
+#pauseTipDiv {
+    display: none;
+    z-index: 1004;
+}
+
+.tipStyle {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 1011;
+    -moz-opacity: 0.8;
+    opacity: .80;
+    filter: alpha(opacity=80);
+}
+
+.tipStyle img {
+    width: 2.96875rem;
+    height: 1.84375rem;
+    position: absolute;
+    right: 15px;
+    top: 5px;
+}
+
+
+
+.content {
+    overflow: auto;
+    width: 100%;
+    height: auto;
+}
+
+.content li {
+    overflow: hidden;
+    display: inline-block;
+}
+
+.content li a {
+    display: inline-block;
+    margin-right: 4px;
+}
+video::-webkit-media-controls {
+    display:none !important;
+}
+
+
+/* By Tanglili - 直播和回放页面的样式添加 - 2016-6-7 下午  END  */
